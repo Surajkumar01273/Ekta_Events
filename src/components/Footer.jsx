@@ -8,7 +8,7 @@ import { FaWhatsapp } from 'react-icons/fa6';
 const Footer = () => {
   return (
     <>
-      <footer className='bg-[url(/footer_img/footer-bg.png)] bg-cover bg-center bg-black text-white pt-14 pb-6'>
+      <footer className='bg-[url(/footer_img/footer-bg.png)] bg-cover bg-center bg-black text-white pt-14 md:pb-6'>
         <div className='md:mx-12 grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-40 px-6'>
           {/* Left: Logo and Info */}
           <div className=''>
@@ -141,7 +141,7 @@ const Footer = () => {
              Designed By Webralecon India Pvt. Ltd.
           </Link>
         </div>
-        <div className='md:hidden w-full'>
+        <div className='md:hidden w-full rounded-md'>
           <div className='flex justify-between md:justify-end'>
             <span className='bg-green-500 font-semibold text-center p-4 w-full'>
               <Link to='https://wa.me/919870576497?text=Hello i am here' className='flex items-center justify-center gap-2'>
