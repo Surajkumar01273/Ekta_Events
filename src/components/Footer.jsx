@@ -8,7 +8,7 @@ import { FaWhatsapp } from 'react-icons/fa6';
 const Footer = () => {
   return (
     <>
-      <footer className='bg-[url(/footer_img/footer-bg.png)] bg-cover bg-center bg-black text-white pt-14 md:pb-6'>
+      <footer className='bg-[url(/footer_img/footer-bg.png)] bg-cover bg-center bg-black text-white pt-14 lg:pb-6'>
         <div className='md:mx-12 grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-40 px-6'>
           {/* Left: Logo and Info */}
           <div className=''>
@@ -143,13 +143,13 @@ const Footer = () => {
         </div>
         <div className='md:hidden w-full rounded-md'>
           <div className='flex justify-between md:justify-end'>
-            <span className='bg-green-500 font-semibold text-center p-4 w-full'>
+            <span className='bg-green-500 font-semibold text-center p-4 w-full rounded-tl-md'>
               <Link to='https://wa.me/919870576497?text=Hello i am here' className='flex items-center justify-center gap-2'>
                  <FaWhatsapp className='text-white p-1 bg-green-600 rounded-full text-3xl mt-[5px]' /> Whatsapp
               </Link>
             </span>
 
-            <span className='bg-blue-500 p-4 text-center font-semibold w-full'>
+            <span className='bg-blue-500 p-4 text-center font-semibold w-full rounded-tr-md'>
               <Link to='tel:+91 9870576497' className='flex items-center justify-center gap-2'>
                 <FaPhone className='text-white bg-green-600 rounded-full p-2 text-4xl' />Call Now
               </Link>
